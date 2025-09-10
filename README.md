@@ -30,15 +30,15 @@ A secure, client-side URL Shortener application built with React and Material UI
 ```
 src/
 ├── components/
-│   ├── URLShortener.jsx      # Main URL shortening interface
-│   ├── Statistics.jsx        # Analytics and statistics dashboard
-│   └── RedirectHandler.jsx   # Handles short URL redirections
+│   ├── URLShortener.jsx     
+│   ├── Statistics.jsx       
+│   └── RedirectHandler.jsx  
 ├── utils/
-│   ├── logger.js            # Custom logging middleware
-│   ├── storage.js           # Data persistence layer
-│   └── urlUtils.js          # URL validation and utility functions
-├── App.jsx                  # Main application component with routing
-└── main.jsx                 # Application entry point
+│   ├── logger.js            
+│   ├── storage.js           
+│   └── urlUtils.js          
+├── App.jsx                  
+└── main.jsx                 
 ```
 
 ## Key Features Implementation
