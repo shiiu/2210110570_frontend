@@ -1,4 +1,4 @@
-# System Design Document — Affordmed URL Shortener (Frontend-only)
+# System Design Document — URL Shortener (Frontend-only)
 
 This concise document outlines architectural choices, data modeling, technology selections, and assumptions for a secure, client-side URL Shortener built for the Affordmed internship project.
 
