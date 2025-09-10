@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "2ca58de1-3605-4de6-a414-35b4fedbff26",
+		"name": "Afford_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48321510",
+		"_collection_link": "https://cloudy-meteor-704203.postman.co/workspace/Shreeya-Baral's-Workspace~66b82cd0-5644-4e79-840b-4c5b00951822/collection/48321510-2ca58de1-3605-4de6-a414-35b4fedbff26?action=share&creator=48321510&active-environment=48321510-e5631ed3-ac7d-4f39-8b77-db403ec53b61"
+	},
+	"item": [
+		{
+			"name": "http://20.244.56.144/evaluation-service/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"sb200@snu.edu.in\",\r\n    \"name\": \"SHREEYA BARAL\",\r\n    \"mobileNo\": \"9717835519\",\r\n    \"githubusername\": \"shiiu\",\r\n    \"rollNo\": \"2210110570\",\r\n    \"collegeName\": \"SHIV NADAR UNIVERSITY\",\r\n    \"accessCode\": \"XvADfs\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.244.56.144/evaluation-service/register",
+					"protocol": "http",
+					"host": [
+						"20",
+						"244",
+						"56",
+						"144"
+					],
+					"path": [
+						"evaluation-service",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "clientID",
+						"value": "2e514916-eda6-4484-82a0-9f33d456eadb",
+						"type": "text"
+					},
+					{
+						"key": "clientSecret",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"logID\": \"a4ad82e9-1200-4513-96d0-58bf5257d482\",\r\n  \"message\": \"Log created successfully\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "POST http://20.244.56.144/evaluation-service/logs",
+					"protocol": "POST http",
+					"host": [
+						"20",
+						"244",
+						"56",
+						"144"
+					],
+					"path": [
+						"evaluation-service",
+						"logs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
